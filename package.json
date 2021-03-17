@@ -1,0 +1,53 @@
+{
+	"name": "electron-flyout",
+	"version": "0.0.1",
+	"description": "Flyout Menu for Electron in Windows",
+	"main": "build/index.js",
+	"keywords": [
+		"node",
+		"vibrancy",
+		"windows",
+		"vibrant",
+		"acrylic",
+		"win10",
+		"windows10",
+		"blur",
+		"fluent",
+		"electron"
+	],
+	"scripts": {
+		"build": "tsc",
+		"test": "tsc -p test && electron test/test.js"
+	},
+	"engines": {
+		"node": ">=8.0.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Seo-Rii/electron-flyout.git"
+	},
+	"author": "seorii <studioSeoRii@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Seo-Rii/electron-flyout/issues",
+		"email": "studioSeoRii@gmail.com"
+	},
+	"homepage": "https://github.com/Seo-Rii/electron-flyout#readme",
+	"dependencies": {
+		"electron-acrylic-window": "^0.5.5"
+	},
+	"devDependencies": {
+		"electron": "^12.0.1",
+		"typescript": "^4.0.5"
+	},
+	"files": [
+		"/LICENSE",
+		"/README.md",
+		"/tsconfig.json",
+		"/package.json",
+		"/package-lock.json",
+		"/logo.png",
+		"/index.d.ts",
+		"src/**/*"
+	]
+}
